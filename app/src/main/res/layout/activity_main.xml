@@ -5,9 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="@color/colorBackGround"
-    >
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,39 +16,40 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
             android:text="bandio"
             android:textAlignment="center"
-            android:textSize="50dp"
             android:textColor="@color/colorFonte"
-            android:layout_marginTop="100dp"
-            />
+            android:textSize="50dp" />
 
-       <LinearLayout
-           android:layout_width="387dp"
-           android:layout_height="wrap_content"
-           android:orientation="horizontal"
-           android:layout_marginTop="100dp"
-           >
-           <ImageView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_marginLeft="20dp"
-               android:layout_marginTop="10dp"
-               android:src="@drawable/ic_person_black_24dp"
-               />
-           <EditText
-               android:layout_width="340dp"
-               android:layout_height="wrap_content"
-               android:hint="Username"
-               android:textColor="@color/colorFonte"
-               />
-       </LinearLayout>
         <LinearLayout
             android:layout_width="387dp"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_person_black_24dp" />
+
+            <EditText
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorFonte"
+                android:hint="Username"
+                android:textColor="@color/colorFonte"
+                android:textColorHint="@color/colorFonte" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            >
+            android:orientation="horizontal">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -58,15 +58,34 @@
                 android:src="@drawable/ic_vpn_key_black_24dp"
 
                 />
+
             <EditText
                 android:layout_width="340dp"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorFonte"
+                android:drawableRight="@drawable/ic_help_outline_black_24dp"
                 android:hint="Passaword"
                 android:textColor="@color/colorFonte"
-                android:drawableRight="@drawable/ic_help_outline_black_24dp"
-                />
+                android:textColorHint="@color/colorFonte" />
         </LinearLayout>
 
+        <ImageButton
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/botao"
+            android:padding="30dp"
+            android:src="@drawable/ic_exit_to_app" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/colorFonte"
+            android:text="Don't Have an accont? Sign Up"
+            android:textAlignment="center"
+            android:textColor="@color/colorFonte" />
 
 
     </LinearLayout>

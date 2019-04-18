@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackGround"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/camera"
+            android:src="@drawable/ic_camera_alt_black_24dp" />
+
+
+        <LinearLayout
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_person_black_24dp" />
+
+            <EditText
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorFonte"
+                android:hint="Name"
+                android:textColor="@color/colorFonte"
+                android:textColorHint="@color/colorFonte" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_mail_outline_black_24dp" />
+
+            <EditText
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorFonte"
+                android:hint="Email"
+                android:textColor="@color/colorFonte"
+                android:textColorHint="@color/colorFonte" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_vpn_key_black_24dp" />
+
+            <EditText
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorFonte"
+                android:hint="Passaword"
+                android:textColor="@color/colorFonte"
+                android:textColorHint="@color/colorFonte" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_cake" />
+
+            <EditText
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorFonte"
+                android:hint="brithday"
+                android:textColor="@color/colorFonte"
+                android:textColorHint="@color/colorFonte" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
